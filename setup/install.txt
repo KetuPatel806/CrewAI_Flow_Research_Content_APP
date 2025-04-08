@@ -1,0 +1,19 @@
+[tool.hatch.build.targets.wheel]
+packages = ["src/researcher_content"]
+
+
+FOR UV Users add in TOML FILE
+
+
+I got to run the application my problem was just to know the following steps (Im working on windows):
+CONDA WAY
+1 conda create -p venv python==3.11
+2 pip install crewai
+3 pip install crewai-tools
+4 pip install -e.
+
+
+UV WAY
+uv lock
+uv sync
+5 uv run kickoff
